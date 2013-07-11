@@ -10,6 +10,7 @@ Scripts
 *.pyc
 *~
 *.db
+*.sqlite
 .DS_Store
 *.sublime*
 data/*
