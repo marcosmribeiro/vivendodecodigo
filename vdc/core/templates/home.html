@@ -1,10 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    aaaa
-</body>
-</html>
+{% extends "base.html" %}
+{% load cms_tags sekizai_tags %}
+
+{% block base_content %}
+    {% addtoblock "css" %}{% endaddtoblock %}
+
+
+    {% addtoblock "js" %}{% endaddtoblock %}
+{% endblock %}
