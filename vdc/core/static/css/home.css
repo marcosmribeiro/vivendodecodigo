@@ -1,0 +1,28 @@
+body {
+    background: url("../imgs/bg.png");
+}
+
+#nav-orientation {
+    margin: 200px auto 0 auto;
+    width: 980px;
+    min-height: 430px;
+}
+
+#nav-orientation .span4 {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    opacity: .55;
+    min-height: 400px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 4px 4px 5px #f0f0f0;
+    -moz-box-shadow: 4px 4px 5px #f0f0f0;
+    box-shadow: 4px 4px 5px #f0f0f0;
+}
+
+#nav-orientation .span4:hover {
+    opacity: 1
+}

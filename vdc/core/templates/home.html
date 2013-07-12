@@ -2,8 +2,15 @@
 {% load cms_tags sekizai_tags %}
 
 {% block base_content %}
-    {% addtoblock "css" %}{% endaddtoblock %}
+    {% addtoblock "css" %}
+        <link href="{{ STATIC_URL }}css/home.css" rel="stylesheet" type="text/css" />
+    {% endaddtoblock %}
 
+    <nav id="nav-orientation">
+        <div class="span4"></div>
+        <div class="span4"></div>
+        <div class="span4"></div>
+    </nav>
 
     {% addtoblock "js" %}{% endaddtoblock %}
 {% endblock %}

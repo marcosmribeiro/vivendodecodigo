@@ -11,13 +11,22 @@
   <meta name="author" content="Fernando A. Valente" />
 
   <link href="{{ STATIC_URL }}js/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="{{ STATIC_URL }}css/base.css" rel="stylesheet" type="text/css" />
   {% render_block "css" %}
 
 </head>
 <body>
   {% cms_toolbar %}
-
   {# {% placeholder base_content %} #}
+
+  <header>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="#"></a>
+        <ul class="nav"></ul>
+      </div>
+    </nav>
+  </header>
 
   {% block base_content %}{% endblock %}
 
