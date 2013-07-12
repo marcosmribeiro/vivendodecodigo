@@ -2,8 +2,32 @@ body {
     background: url("../imgs/bg.png");
 }
 
+h1 {
+    color: #666;
+    font-size: 50px;
+    font-family: 'Seymour One', sans-serif;
+    text-shadow: 2px 2px 2px #ccc;
+}
+
+#home-logo {
+    text-align: center;
+    margin: 80px auto 0 auto;
+    padding-bottom: 40px;
+    width: 750px;
+}
+
+#logo-left {
+    float: left;
+}
+
+#logo-right {
+    float: right;
+    padding-top: 15px;
+}
+
 #nav-orientation {
-    margin: 200px auto 0 auto;
+    clear: both;
+    margin: 80px auto 0 auto;
     width: 980px;
     min-height: 430px;
 }
@@ -11,7 +35,7 @@ body {
 #nav-orientation .span4 {
     border: 1px solid #ccc;
     background-color: #f0f0f0;
-    opacity: .55;
+    opacity: .34;
     min-height: 400px;
 
     -webkit-border-radius: 4px;
@@ -24,5 +48,6 @@ body {
 }
 
 #nav-orientation .span4:hover {
-    opacity: 1
+    opacity: 1;
+    cursor: pointer;
 }
