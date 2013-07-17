@@ -47,7 +47,20 @@ h1 {
     box-shadow: 4px 4px 5px #f0f0f0;
 }
 
-#nav-orientation .span4:hover {
+#nav-orientation .border-jobs:hover {
     opacity: 1;
     cursor: pointer;
+    border: 1px solid #a6df42;
+}
+
+#nav-orientation .border-events:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid #e8a0b4;
+}
+
+#nav-orientation .border-other:hover {
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid #46a4e3;
 }
