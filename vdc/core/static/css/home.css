@@ -1,28 +1,8 @@
-body {
-    background: url("../imgs/bg.png");
-}
-
 h1 {
     color: #666;
     font-size: 50px;
     font-family: 'Seymour One', sans-serif;
     text-shadow: 2px 2px 2px #ccc;
-}
-
-#home-logo {
-    text-align: center;
-    margin: 40px auto 0 auto;
-    padding-bottom: 40px;
-    width: 950px;
-}
-
-#logo-left {
-    float: left;
-}
-
-#logo-right {
-    float: right;
-    padding-top: 15px;
 }
 
 #nav-orientation {
