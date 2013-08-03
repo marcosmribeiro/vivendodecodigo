@@ -36,9 +36,9 @@ ul li {
 ****************************************************************************/
 #nav-orientation {
     clear: both;
-    margin: 110px auto 0 auto;
+    margin: 100px auto 0 auto;
     width: 980px;
-    min-height: 430px;
+    height: 400px;
 }
 
 #nav-orientation .col-lg-3 {
@@ -93,6 +93,11 @@ ul li {
 
 .wk-detail:hover {
     opacity: 1;
+}
+
+#content-details {
+    width: 100%;
+    min-height: 600px;
 }
 
 /*
