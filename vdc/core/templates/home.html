@@ -4,14 +4,17 @@
 {% block base_content %}
     {% addtoblock "css" %}
         <link href='http://fonts.googleapis.com/css?family=Seymour+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
         <link href="{{ STATIC_URL }}css/home.css" rel="stylesheet" type="text/css" />
     {% endaddtoblock %}
 
     <nav id="nav-orientation">
-        <div class="span4 border-jobs"></div>
-        <div class="span4 border-events"></div>
-        <div class="span4 border-other"></div>
+        <div class="col-lg-3 border-jobs"></div>
+        <div class="col-lg-3 border-events"></div>
+        <div class="col-lg-3 border-other"></div>
     </nav>
+
+    <footer id="home-foot"></footer>
 
     {% addtoblock "js" %}{% endaddtoblock %}
 {% endblock %}

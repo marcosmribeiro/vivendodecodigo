@@ -23,13 +23,18 @@
         <div id="logo-left">
             <img src="{{ STATIC_URL }}/imgs/vdc_logo.png" alt="vivendo de código">
         </div>
-        <nav id="nav">
-            aaaaa
+        <nav id="navigation">
+            <ul>
+                <li><a href="#" class="item-nav-selected">home</a></li>
+                <li><a href="#">sobre</a></li>
+                <li><a href="#">portfólio</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
         </nav>
     </div>
   </header>
 
-  {% block base_content %}{% endblock %}
+    {% block base_content %}{% endblock %}
 
   <script src="{{ STATIC_URL }}js/lib/jquery-1.10.2.min.js"></script>
   <script src="{{ STATIC_URL }}js/lib/bootstrap/js/bootstrap.min.js"></script>
