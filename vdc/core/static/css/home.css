@@ -44,7 +44,6 @@ ul li {
 #nav-orientation .col-lg-3 {
     border: 1px solid #ccc;
     background-color: #f0f0f0;
-    opacity: .34;
     min-height: 300px;
     margin-right: 26px;
     margin-left: 30px;
@@ -61,19 +60,39 @@ ul li {
 #nav-orientation .border-jobs:hover {
     opacity: 1;
     cursor: pointer;
+    background-color: #f0f0f0;
     border: 1px solid #a6df42;
 }
 
 #nav-orientation .border-events:hover {
-    opacity: 1;
     cursor: pointer;
+    background-color: #f0f0f0;
     border: 1px solid #e8a0b4;
 }
 
 #nav-orientation .border-other:hover {
     opacity: 1;
     cursor: pointer;
+    background-color: #f0f0f0;
     border: 1px solid #46a4e3;
+}
+
+.img-detail-50 {
+    padding: 20px 0 20px 50px;
+}
+
+.img-detail-70 {
+    padding: 20px 0 20px 70px;
+}
+
+.wk-detail {
+    opacity: .85;
+    font-size: 14px;
+    text-align: center;
+}
+
+.wk-detail:hover {
+    opacity: 1;
 }
 
 /*
