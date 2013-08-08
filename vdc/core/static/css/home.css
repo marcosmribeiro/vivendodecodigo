@@ -94,18 +94,3 @@ ul li {
 .wk-detail:hover {
     opacity: 1;
 }
-
-#content-details {
-    width: 100%;
-    min-height: 600px;
-}
-
-/*
-* footer
-****************************************************************************/
-#home-foot {
-    width: 100%;
-    height: 100px;
-    /*background-color: #000;*/
-}
-
