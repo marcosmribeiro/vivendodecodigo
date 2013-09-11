@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load cms_tags sekizai_tags %}
+
+{% block base_content %}
+    {% addtoblock "css" %}
+        <link href='http://fonts.googleapis.com/css?family=Seymour+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+        <link href="{{ STATIC_URL }}css/home.css" rel="stylesheet" type="text/css" />
+    {% endaddtoblock %}
+
+    <nav id="nav-orientation">
+        <div class="col-lg-3 border-jobs">
+            <section id="front-end">
+                <header class="img-detail-50">
+                    <img src="{{ STATIC_URL }}/imgs/design-bump.png" >
+                </header>
+                <article class="wk-detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent et tincidunt libero, in blandit elit. Nulla ac posuere ligula.
+                    Praesent sagittis pellentesque magna nec aliquam.
+                </article>
+            </section>
+        </div>
+        <div class="col-lg-3 border-events">
+            <section id="back-end">
+                <header class="img-detail-70">
+                    <img src="{{ STATIC_URL }}/imgs/architect.png" >
+                </header>
+                <article class="wk-detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent et tincidunt libero, in blandit elit. Nulla ac posuere ligula.
+                    Praesent sagittis pellentesque magna nec aliquam.
+                </article>
+            </section>
+        </div>
+        <div class="col-lg-3 border-other">
+            <section id="social">
+                <header class="img-detail-70">
+                    <img src="{{ STATIC_URL }}/imgs/people-y.png" >
+                </header>
+                <article class="wk-detail">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent et tincidunt libero, in blandit elit. Nulla ac posuere ligula.
+                    Praesent sagittis pellentesque magna nec aliquam.
+                </article>
+            </section>
+        </div>
+    </nav>
+
+    <footer id="home-foot">
+        <div class="navbar navbar-fixed-bottom"></div>
+    </footer>
+
+    {% addtoblock "js" %}{% endaddtoblock %}
+{% endblock %}
