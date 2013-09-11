@@ -1,12 +1,11 @@
 {% extends "base.html" %}
-{% load cms_tags sekizai_tags %}
 
 {% block base_content %}
-    {% addtoblock "css" %}
+    {% block css %}
         <link href='http://fonts.googleapis.com/css?family=Seymour+One' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
         <link href="{{ STATIC_URL }}css/home.css" rel="stylesheet" type="text/css" />
-    {% endaddtoblock %}
+    {% endblock %}
 
     <nav id="nav-orientation">
         <div class="col-lg-3 border-jobs">
@@ -51,5 +50,5 @@
         <div class="navbar navbar-fixed-bottom"></div>
     </footer>
 
-    {% addtoblock "js" %}{% endaddtoblock %}
+    {% block js %}{% endblock %}
 {% endblock %}
